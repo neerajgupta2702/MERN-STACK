@@ -1,0 +1,153 @@
+body{
+     background: linear-gradient(#ea8007,#ffffff,#05f063);
+    width: auto;
+    height: 489px;
+    }
+    table, th, td {
+        width: 400px;
+        margin-left: 40%;
+        margin-top: 210px;
+        text-align: center;
+        }
+     tr{
+              height: 80px;
+              width: 400px;
+              }
+           .upper1{
+            background-color:#fc5000;
+              border-radius:8px 8px 0px 0px;
+              box-shadow: 3px 8px 10px 5px  orangered;
+           }
+            .lower1{
+             background-color: #008000;
+             border-radius:0px 0px 8px 8px;
+             box-shadow: 3px 8px 10px 5px  #008000 ;
+           }
+           .middle1{
+            background-color: #ffffff;
+            box-shadow: 3px 8px 10px 5px #ffffff;
+            }
+      .circle{
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:2px solid black;
+    margin-left: 50%;
+    margin-top: 82px;
+    position: absolute;
+    }
+#ab{
+    position: absolute;
+    margin-top: 39px;
+    }
+.text{
+    color: blue;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    text-shadow: 3px 4px 2px  #f26507;
+    font-style:italic;
+     margin-top: 0px;
+     text-align: center;
+  
+    }
+    p.text{
+        margin-top:0px;
+    } 
+.hr1
+{
+    height: 2px;
+    width: 80px;
+    background-color: blue;
+    rotate: 15deg;
+    justify-content: center;
+}
+.hr2{
+    height:2px;
+    width: 80px;
+    background-color: blue;
+    rotate: 30deg;
+    justify-content: center;
+}
+.hr3{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 45deg;
+    justify-content: center;
+}
+.hr4{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 60deg;
+    justify-content: center;
+}
+.hr5{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 75deg;
+    justify-content: center;
+}
+.hr6{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 90deg;
+    justify-content: center;
+}
+.hr7{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 105deg;
+    justify-content: center;
+}
+.hr8{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 120deg;
+    justify-content: center;
+}
+.hr9{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 135deg;
+    justify-content: center;
+}
+.hr10{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 150deg;
+    justify-content: center;
+}
+.hr11{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate: 165deg;
+    justify-content: center;
+}
+.hr12{
+    background-color: blue;
+    height: 2px;
+    width: 80px;
+    margin-top:0px;
+    rotate:180deg;
+    justify-content: center;
+
+}

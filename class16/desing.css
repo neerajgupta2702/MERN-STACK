@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .draggable-text {
+    width: 120px;
+    height: 40px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: grab;
+    user-select: none;
+  }
+  
