@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input id="input" type="number" placeholder="enter id no">
+   <button onclick="username()">Click</button>
+   <h3 id="result">result</h3>
+   <script>
+let userId
+     function username(){
+let n=document.getElementById("input")
+ var names=[{name:"ram",id:1},{name:"shyam",id:2},{name:"mahesh",id:3},{name:"suresh",id:4}]
+ names.forEach((element)=>{
+  if(n==element.id){
+   return element.name;
+    }
+})}
+
+let ans=username(userId);
+console.log(ans);
+   </script>
+    
+</body>
+</html>

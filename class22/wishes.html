@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wishes</title>
+</head>
+<body>
+
+    <h2 id="result">result</h2>
+    <button onclick="wish()">Click</button>
+
+    <script>
+        let d=new Date();
+        let H=d.getHours()
+        function wish(){
+        if(H>=5&&H<12){
+            document.getElementById("result").innerText="Good morning"
+        }
+        else if(H>=12&&H<18){
+        document.getElementById("result").innerText="Good Afternoon"
+        }
+        else if(H>=18&&H<22){
+            document.getElementById("result").innerText="Good Evening"
+        }
+        else if((H>=22&&H<24)||(H>=0&&H<5)){
+            document.getElementById("result").innerText="Good Night"
+        }
+        else{
+
+        }
+    }
+    </script>
+    
+</body>
+</html>

@@ -18,6 +18,10 @@ if(e.target.innerHTML=='='){
     input.value=string;
 
   } 
+  else if(e.target.innerHTML=='%'){
+    
+    
+  }
    else{
     string+=e.target.innerHTML;
     input.value=string;

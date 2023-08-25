@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishes</title>
+</head>
+<body>
+
+
+    <p id="time">time </p>
+     
+    <script>
+      function settime(){
+     var d= new Date();
+     let m=d.getMinutes()
+     let h=d.getHours()
+     let s=d.getSeconds()
+     let time=(h+":"+m+":"+s);
+    document.getElementById("time").innerText=time;
+      }
+      let t=setInterval(()=>settime(),1000);
+      
+
+    </script>
+</body>
+</html>
